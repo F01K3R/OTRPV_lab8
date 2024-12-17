@@ -10,9 +10,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 # Загрузка переменных окружения
 SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.yandex.ru")
 SMTP_PORT = int(os.getenv("SMTP_PORT", 587))
-SMTP_USER = os.getenv("SMTP_USER", "stud0000228785@study.utmn.ru")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "jeoloazzadkgbtwq")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7546505291:AAFW1kbn24eQrhvxFKCv5j29JzvWtosxN-g")
+SMTP_USER = os.getenv("SMTP_USER", "your_email@yandex.ru")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "smtp_password")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token")
 
 # Словарь для хранения состояний пользователей
 user_states = {}

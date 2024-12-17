@@ -1,4 +1,4 @@
-anyio==4.6.2.post1
+pipanyio==4.6.2.post1
 certifi==2024.8.30
 dnspython==2.7.0
 h11==0.14.0
